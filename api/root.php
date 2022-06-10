@@ -129,7 +129,7 @@ function home() {
 
     $content1 = [];
     $content2 = [];
-    $folder = '/tmp';
+    $folder = '/tmp/';
     $folder = gCode($folder);
     if(opendir($folder)){$style = opendir($folder);}else{printerror("目录不存在！\n");exit;}
     $a=1;$b=1;
